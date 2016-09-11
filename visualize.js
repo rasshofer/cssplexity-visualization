@@ -31,7 +31,7 @@ if (argv._ && argv._.length) {
     if (index > 0) {
       dot.push('node_' + index + ' [shape=box,label="IF (' + convertTypeToPseudoCondition(node) + ')"];');
     } else {
-      dot.push('node_' + index + ' [shape=box,label="Enter"];');
+      dot.push('node_' + index + ' [label="Enter"];');
     }
   });
 
