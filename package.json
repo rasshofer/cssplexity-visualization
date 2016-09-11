@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "A simple tool to visualize the cyclomatic complexity of CSS selectors based on CSSplexity",
   "dependencies": {
-    "cssplexity": "0.1.0",
+    "cssplexity": "^0.2.0",
     "yargs": "^5.0.0"
   }
 }
