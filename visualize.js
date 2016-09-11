@@ -38,17 +38,17 @@ if (argv._ && argv._.length) {
   dot.push('exit [label="Exit"];');
 
   tree.forEach(function (node, index) {
+    var target;
+    if ((index + 1) < tree.length) {
+      target = 'node_' + (index + 1);
+    } else {
+      target = 'exit';
+    }
     if (index > 0) {
-      var target;
-      if ((index + 1) < tree.length) {
-        target = 'node_' + (index + 1);
-      } else {
-        target = 'exit';
-      }
       dot.push('node_' + index + ' -> ' + target + ' [label="true"];');
       dot.push('node_' + index + ' -> exit [style=dotted,label="false"];');
     } else {
-      dot.push('node_' + index + ' -> node_' + (index + 1) + ';');
+      dot.push('node_' + index + ' -> ' + target + ';');
     }
   });
 
