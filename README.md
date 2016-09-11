@@ -19,6 +19,15 @@ node visualize "a#content.active > div::first-line [data-content]" | dot -Tpng >
 
 ![](example.png)
 
+## Changelog
+
+* 0.0.2
+  * Update CSSplexity
+  * Highlight 'Enter' and 'Exit' nodes visually
+  * Fix graph generation for subject-only selectors
+* 0.0.1
+  * Initial version
+
 ## License
 
 Copyright (c) 2016 [Thomas Rasshofer](http://thomasrasshofer.com/)  
