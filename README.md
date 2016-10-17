@@ -2,6 +2,9 @@
 
 > A simple tool to visualize the cyclomatic complexity of CSS selectors based on CSSplexity
 
+[![Build Status](https://travis-ci.org/rasshofer/cssplexity-visualization.svg)](https://travis-ci.org/rasshofer/cssplexity-visualization)
+[![Dependency Status](https://david-dm.org/rasshofer/cssplexity-visualization/status.svg)](https://david-dm.org/rasshofer/cssplexity-visualization)
+
 ## Installation
 
 1. Install [GraphViz](http://www.graphviz.org/) to generate the visual graphs
@@ -21,6 +24,8 @@ node visualize "a#content.active > div::first-line [data-content]" | dot -Tpng >
 
 ## Changelog
 
+* 0.0.4
+  * Add tests
 * 0.0.3
   * Update CSSplexity
 * 0.0.2
