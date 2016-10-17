@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "cssplexity-visualization",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple tool to visualize the cyclomatic complexity of CSS selectors based on CSSplexity",
   "dependencies": {
     "cssplexity": "^0.3.0",

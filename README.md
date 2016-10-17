@@ -21,6 +21,8 @@ node visualize "a#content.active > div::first-line [data-content]" | dot -Tpng >
 
 ## Changelog
 
+* 0.0.3
+  * Update CSSplexity
 * 0.0.2
   * Update CSSplexity
   * Highlight 'Enter' and 'Exit' nodes visually
