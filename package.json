@@ -4,8 +4,8 @@
   "version": "0.0.4",
   "description": "A simple tool to visualize the cyclomatic complexity of CSS selectors based on CSSplexity",
   "dependencies": {
-    "cssplexity": "^0.3.0",
-    "yargs": "^5.0.0"
+    "cssplexity": "^0.4.0",
+    "yargs": "^6.3.0"
   },
   "scripts": {
     "test": "node visualize \"a#content.active > div::first-line [data-content]\" | dot -Tpng > example.png"
