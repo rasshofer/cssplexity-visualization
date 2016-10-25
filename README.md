@@ -24,6 +24,8 @@ node visualize "a#content.active > div::first-line [data-content]" | dot -Tpng >
 
 ## Changelog
 
+* 0.0.5
+  * Update outdated dependencies
 * 0.0.4
   * Add tests
 * 0.0.3
